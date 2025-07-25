@@ -5,4 +5,5 @@ services:
     restart: always
     ports:
       - "8514:80"
-
+    cpus: 1
+    mem_limit: 1024m
